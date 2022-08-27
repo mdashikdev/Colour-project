@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="wrapper">
+            <div class="animate"></div>
+            <div class="franimate">
+                <h4>
+                    Generate colour code app
+                </h4>
+                <button id="rgbbtn">Generate</button>
+                <div class="inner_wrapper">
+                    <div class="left_content">
+                        <div class="input_container">
+                            <input type="text" id="hex_input" value="#8854d6">
+                            <button class="hex_copybtn">Copy</button>
+                        </div>
+                    </div>
+                    <div class="right_content">
+                        <div class="input_container">
+                            
+
+                            <div class="rgb_inp">
+                                <input type="number" disabled class="rgb_input" value="136">
+                                <input type="number" disabled class="rgb_input" value="84">
+                                <input type="number" disabled class="rgb_input" value="214">
+                                <button class="rgb_copybtn">Copy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4>Gradient Generator</h4>
+                <div class="show_container">
+                    <div class="clr1"></div>
+                    <div class="clr2"></div>
+                    <div class="degshow"></div>
+                </div>
+
+                <div class="inner_wrapper">
+                    <input type="color" name="" class="color" id="color1">
+                    <input type="color" name="" class="color" id="color2">
+                    <input type="range" min="0" max="360" id="deg">
+                    <button class="gradient_copy_btn">Copy</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="./script.js"></script>
+</body>
+</html>
